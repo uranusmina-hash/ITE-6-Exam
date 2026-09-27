@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <form id="student-form">
+    
+    <label for="name">Student Name</label>
+    <input type="text" id="name">
+
+    <label for="course">Course</label>
+    <input type="text" id="course">
+
+    <label for="year">Year Level</label>
+    <input type="text" id="year">
+
+    <label for="section">Section</label>
+    <input type="text" id="section">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email">
+
+    <button type="submit" id="btn-submit">Submit</button>
+    <button type="button" id="btn-clear">Clear</button>
+  </form>
+
+  <div id="preview-section">
+    <h2>Student Information Preview</h2>
+    <div id="preview-output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
